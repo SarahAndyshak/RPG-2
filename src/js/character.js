@@ -1,10 +1,6 @@
-export default class Rectangle {
-  constructor(side1, side2) {
-    this.side1 = side1;
-    this.side2 = side2;
-  }
+export default class Character {
+  constructor(inspirationLevel, skillLevel) {
 
-  getArea() {
-    return this.side1 * this.side2;
+
   }
 }
