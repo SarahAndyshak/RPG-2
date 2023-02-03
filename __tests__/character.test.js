@@ -10,7 +10,7 @@ describe('Character', () => {
   });
 
   test('increaseInspo should increase the inspirationLevel by 25', () => {
-    const mainCharacter = new Character("Mannerism", 1, 0);
+    const mainCharacter = new Character(1);
     expect(mainCharacter.increaseInspo()).toEqual(26); 
   });
 

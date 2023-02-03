@@ -11,5 +11,4 @@ export default class Character {
     }
     return this.inspirationLevel;
   }
-
 }
