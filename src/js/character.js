@@ -6,10 +6,10 @@ export default class Character {
   }
 
   increaseInspo() {
-    // if (this.inspirationLevel < 1) {
-    //   return this.inspirationLevel + 25;
-    // }
-    // return this.inspirationLevel;
+    if (this.inspirationLevel <= 1) {
+      this.inspirationLevel += 25;
+    }
+    return this.inspirationLevel;
   }
 
 }
